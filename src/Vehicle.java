@@ -2,10 +2,14 @@ import java.awt.Color;
 import java.awt.Graphics;
 
 public class Vehicle {
+	// co-ordinates
 	int x;
 	int y;
+	
+	// length(width) and height of lanes
 	int width = 0;
 	int height = 0;
+	
 	public int getX() {
 		return x;
 	}
